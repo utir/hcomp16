@@ -365,7 +365,7 @@ mark {
 
 .photo-size {
     width: 128px;
-    padding-top: 20px;
+    margin-top: 20px;
 }
 
 .img-center {
@@ -407,3 +407,4 @@ mark {
 .carousel {
     margin: 0 5% 0 5%;
 }
+
