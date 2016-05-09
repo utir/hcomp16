@@ -116,6 +116,45 @@ h6 {
     min-height:400px;
 }
 
+.participate-header {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 0px;
+    color: #f8f8f8;
+    background: url(../img/participate.jpg) no-repeat center;
+    background-position: top;
+    background-size: cover;
+    min-height:400px;
+}
+.ws-iva-header {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 0px;
+    color: #f8f8f8;
+    background: url(../img/ws-iva.jpg) no-repeat center;
+    background-position: top;
+    background-size: cover;
+    min-height:400px;
+}
+
+.ws-mf-header {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 0px;
+    color: #f8f8f8;
+    background: url(../img/ws-mf.jpg) no-repeat center;
+    background-position: top;
+    background-size: cover;
+    min-height:400px;
+}
+
+.tutorial-header {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 0px;
+    color: #f8f8f8;
+    background: url(../img/tutorial.jpg) no-repeat center;
+    background-position: top;
+    background-size: cover;
+    min-height:400px;
+}
+
 .intro-message {
     position: relative;
     padding-top: 14%;
@@ -412,6 +451,21 @@ mark {
     margin-left: 25px;
     margin-right: 25px;
 }
+
+
+
+
+.participate-org {
+    margin: 20px 0px;
+    padding: 25px;
+    padding-top: 0px;
+    min-height: 20px;
+    border: 1px solid #e3e3e3;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    color: #E7E7E7;
+    background: #f0f0f0;
+}
+
 
 
 
