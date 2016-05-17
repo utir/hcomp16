@@ -92,8 +92,10 @@
     </div>
     <!-- /.intro-header -->
 
-    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+    <!-- Go to www.addthis.com/dashboard to customize your tools 
+    Matt Lease - May 16, 2016 - Comment out the below to enable YouTube video scripting at bottom of page
     <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-56c765fcd1780d2a"></script>
+    -->
 
 
     <!-- container -->
@@ -183,7 +185,28 @@
                                 <h2 class="section-heading">Example Project Videos</h2></li>
                         </ul>
                         <p class="lead">Have a cool, short, non-commercial YouTube video showing off your crowdsourcing or human computation project? Tweet a link to <a class="theme-link" href="https://twitter.com/hcomp_conf">@hcomp_conf</a> and our moderator will review it for inclusion in our <a class="theme-link" href="https://www.youtube.com/playlist?list=PL_4hRSGzbjzRmAcdmsgs8GWolJNY9gjcY">playlist</a>!
-			<center><iframe width=100% height="315" src="https://www.youtube.com/embed/videoseries?list=PL_4hRSGzbjzRmAcdmsgs8GWolJNY9gjcY" frameborder="0" allowfullscreen></iframe></center>
+
+                    <p><iframe width="100%"
+                        height="315"
+                        src=""
+                        frameborder="0"
+                        allowfullscreen>
+                    </iframe>
+                    <script>
+                        // http://stackoverflow.com/questions/4959975/generate-random-value-between-two-numbers-in-javascript
+                        function randomIntFromInterval(min,max) {
+                            return Math.floor(Math.random() * (max - min + 1) + min);
+                        }
+
+                        window.onload = function() {
+                            var url = "//www.youtube.com/embed/videoseries?list=PL_4hRSGzbjzRmAcdmsgs8GWolJNY9gjcY&index="
+                            document.getElementsByTagName("iframe")[0].setAttribute("src", url + randomIntFromInterval(0,67))
+                        }
+
+                    </script>
+
+
+
                     </div>
 
                 </div>
