@@ -156,6 +156,8 @@
                         </ul>
                         <ul class="lead">
                             <li>
+                                <mark><font color="red">May 31, 2016: Abstracts for full Papers due</mark></font></li>
+                            <li>
                                 <mark>June 7, 2016</mark>: Full Papers due</li>
                             <li>
                                 <mark>September 2, 2016</mark>: Early Registration deadline</li>
@@ -186,12 +188,14 @@
                         </ul>
                         <p class="lead">Have a cool, short, non-commercial YouTube video showing off your crowdsourcing or human computation project? Tweet a link to <a class="theme-link" href="https://twitter.com/hcomp_conf">@hcomp_conf</a> and our moderator will review it for inclusion in our <a class="theme-link" href="https://www.youtube.com/playlist?list=PL_4hRSGzbjzRmAcdmsgs8GWolJNY9gjcY">playlist</a>!
 
-                    <p><iframe width="100%"
-                        height="315"
+		
+		     <!-- 5/24/16 ML: YouTube quirk -- width must be 430 or less for thumbnail of indexed video to display -->
+                    <p><center><iframe width=430"
+                        height="242"
                         src=""
                         frameborder="0"
                         allowfullscreen>
-                    </iframe>
+                    </iframe></center>
                     <script>
                         // http://stackoverflow.com/questions/4959975/generate-random-value-between-two-numbers-in-javascript
                         function randomIntFromInterval(min,max) {
@@ -200,7 +204,7 @@
 
                         window.onload = function() {
                             var url = "//www.youtube.com/embed/videoseries?list=PL_4hRSGzbjzRmAcdmsgs8GWolJNY9gjcY&index="
-                            document.getElementsByTagName("iframe")[0].setAttribute("src", url + randomIntFromInterval(0,67))
+                            document.getElementsByTagName("iframe")[0].setAttribute("src", url + randomIntFromInterval(0,72))
                         }
 
                     </script>
