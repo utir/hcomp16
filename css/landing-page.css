@@ -478,3 +478,13 @@ mark {
 
 
 
+
+.program-header {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 0px;
+    color: #f8f8f8;
+    background: url(../img/program.jpg) no-repeat center;
+    background-position: top;
+    background-size: cover;
+    min-height:400px;
+}
