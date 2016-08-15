@@ -488,3 +488,10 @@ mark {
     background-size: cover;
     min-height:400px;
 }
+
+.nobullet {
+    list-style: none;
+    font-size: 15px;
+    color:dimgrey;
+    padding-left: 10px;
+}
