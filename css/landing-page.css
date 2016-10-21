@@ -511,3 +511,11 @@ mark {
   font-weight: 400;
   line-height: 1.4;
 }
+
+.nobullet-s {
+    list-style: none;
+    font-size: 13px;
+    color:dimgrey;
+    padding-left: 10px;
+    margin-top: -8px;
+}
